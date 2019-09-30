@@ -1,0 +1,57 @@
+/* Container */
+
+/* Title */
+.title{
+	margin-left: 43px;
+	margin-bottom: 20px;
+	border-bottom: solid 2px #f1f1f1;
+	width: 30%;
+}
+.client-name {
+	font-family: Raleway;
+	text-transform: uppercase;
+	font-size:33px;
+	font-weight:800;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.photographer-name {
+	font-family: Raleway;
+	text-transform: uppercase;
+	color: #bcbcbc;
+	font-size:18.5px;
+	font-weight:500;
+
+}
+
+/* Content */
+.content{
+	width:99%; 
+	margin:0 0% 0% 2.5%;
+}
+
+img{
+	width:30%;
+	float:left;
+	margin:1%;
+	transition: transform 800ms ease; 
+}
+
+img:hover{
+	transform: scale(1.02);
+}
+
+/*footer*/
+.footer{
+	text-align: center;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.footer{
+	font-family: Raleway;
+	color: black;
+	font-weight:600;
+}
